@@ -1,0 +1,297 @@
+body{
+	margin:0;
+	padding:0;
+	/*background-color: #BDBDBD;*/
+	background:url('../images/back.jpg');
+}
+
+#headerkabaap{
+
+width:100%;
+	height:50px;
+	background-color: black;
+
+}
+
+#logo{
+	
+	width:400px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 25px;
+	margin-top:14px;
+	margin-left:20px;
+	float:left;
+}
+
+#header{
+
+	width:100%;
+	height:50px;
+	background-color: #151515;
+	border-bottom:2px solid #0040FF;
+}
+
+#menubar{
+	float:right;
+	width:500px;
+	height:100%;
+	
+	margin-right:100px;
+	
+}
+
+		#menubar ul{
+			border-bottom:3px solid black;
+			
+			color:white;
+			list-style-type: none;
+			margin:0;
+			padding: 0;
+			height:99%;
+			text-align: center;
+			width:400px;
+			margin-top:3px;
+		}
+
+		#menubar ul li{
+			margin-top:5px;
+			
+			display:inline-block;
+			width:90px;
+			height:38px;
+			padding: .7em 0.1em;
+			color:199DF6;
+		}
+
+		#menubar ul li:hover{
+			color: black;
+			border:2px solid #199DF6;
+			
+		}
+
+		#menubar ul li a{
+			margin-top:2px;
+			color: 199DF6;
+			text-decoration: none;
+		}
+		
+
+
+
+
+
+
+
+#searchbar{
+	width:420px;
+	height:26px;
+	float:right;
+	
+	margin-right:100px;
+	margin-top:10px;
+}
+#searchbar img{
+	margin-top:3px;
+	width:20px;
+	height:20px;
+	margin-left:2px;
+}
+
+#search{
+	background:  2px 2px #848484;
+	float:left;
+
+	outline:none;
+	border: 0 none;
+	font:bold 12px Arial,Helvetica,Sans-serif;
+	width:380px;
+	padding:6px 15px 6px 35px;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	-webkit-transition:all 0.7s ease 0s;
+	-moz-transition:all 0.7s ease 0s;
+	-o-transition:all 0.7s ease 0s;
+	transition:all 0.7s ease 0s;
+
+}
+
+
+#search:focus{
+	background: 2px 2px #FFFFFF;
+	color:#6a6f75;
+	width:350p;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	text-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+
+#mainbody{
+	margin:20px auto;
+	
+	width:80%;
+}
+
+#topic{
+	margin:20px auto;
+	
+	width:90%;
+	height:220px;
+
+}
+
+.pimg{
+	margin-left:40px;
+	margin-top:6px;
+	border-radius: 5px;
+	height:60px;
+	width:60px;
+	float:left;
+}
+.pimg img{
+	height:50px;
+	width:50px;
+	border-radius: 5px;
+}
+#question{
+
+	margin-left:100px;
+	width:840px;
+	height:60px;
+	margin-top:10px;
+	padding-left:20px;
+	padding-top:10px;
+	border-radius: 7px;
+	background-color: white;
+	font-weight: bold;
+	font-size: 17px;
+
+}
+#desc{
+	
+	width:900px;
+	height:120px;
+	margin-top:20px;
+	margin-left: 40px;
+	border-top-right-radius: 7px;
+	border-top-left-radius: 7px;
+	background-color: white;
+	padding-left:20px;
+	padding-top:10px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+#comments{
+	margin:60px auto;
+	
+	width:90%;
+}
+
+.comment{
+	
+	width:95%;
+	height:auto;
+	min-height:120px;
+	margin:0px auto;
+	background-color: white;
+	border-radius:7px;
+}
+
+#times{
+	float:right;
+	font-weight: normal;
+	font-size: 12px;
+	margin-right:10px;
+}
+.pcimg{
+	margin-left:10px;
+	margin-top:10px;
+	
+	height:30px;
+	width:30px;
+	float:left;
+}
+
+.pcimg img{
+	height:30px;
+	width:30px;
+}
+
+.cname{
+	margin-left:50px;
+	margin-top:10px;
+	
+	height:30px;
+	width:650px;
+	float:left;
+	font-weight: bold;
+	font-size: 19px;
+}
+.ctime{
+	margin-left:750px;
+	margin-top:10px;
+	padding-top: 10px;
+	
+	height:30px;
+	font-family: Times New Roman, serif;
+	width:150px;
+	
+}
+.cvalue{
+	margin-left:50px;
+	margin-top:10px;
+	padding-left:20px;
+	height:auto;
+	min-height:60px;
+	width:800px;
+	font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+#navigationfooter{
+	width:100%;
+	
+	height:50px;
+	margin-top:20px;
+	font-size: 20px;
+}
+
+#addnewcom{
+	width:900px;
+	height:60px;
+	background-color: white;
+	border-bottom-right-radius: 7px;  
+	border-bottom-left-radius: 7px; 
+	margin-left:40px;
+	border-top:1px solid #2E2E2E;
+	margin-top:0px;
+}
+
+#txtbox{
+	width:500px;
+	margin-top:10px;
+	margin-left:100px;
+	padding-left:10px;
+	height:35px;
+	padding-top:3px;
+}
+#btn{
+	margin-left:20px;
+	width:100px;
+	height:35px;
+	background-color: #E6E6E6;
+
+}
+
+#taguser{
+	width:260px;
+	height:30px;
+	margin-left:10px;
+	margin-top:10px;
+	
+}
+#taguser img{
+	width:30px;
+	height:30px;}

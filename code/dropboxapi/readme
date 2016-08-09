@@ -1,0 +1,9 @@
+https://www.dropbox.com/developers/apps/create
+
+1.Files and data stores
+
+2.oAuth2 Redirect URIs=
+create the dropbox_finish.php and put in itslocation and ADD
+
+3.Implicit grants =disallow
+4.Createa  folder called app and create start.php

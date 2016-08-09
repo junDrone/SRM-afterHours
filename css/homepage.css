@@ -1,0 +1,156 @@
+
+
+body{
+	background-image: url("../images/wall.jpg");
+	margin:0;
+	padding:0;
+}
+
+#mainbody{
+	width:100%;
+	height:600px;
+	
+}
+.container{
+
+	height:500px;
+	width:400px;
+	margin: 30px auto;
+	
+	
+}
+
+.accordian-header{
+	display:block;
+	padding:15px 20px;
+	background:#151515;
+	color:#6E6E6E;
+	text-decoration: none;
+	font-size:1.2em;
+	text-transform:uppercase;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.1);
+	margin-bottom:5px;
+	height:10px;
+	border-radius: 8px;
+}
+
+.accordian{
+	list-style-type: none;
+	text-align: center;
+}
+
+.accordian-content p{
+	margin:20px;
+}
+
+.accordian-content{
+	
+	height:0;
+	overflow:hidden;
+	-webkit-transition:height 400ms ease;
+}
+
+.accordian-content:target{
+	height:150px;
+	
+}
+
+.txtbox{
+
+	height:35px;
+	width:250px;
+	border-radius: 8px;
+	padding-left:15px;
+}
+
+#longo{
+	height:60px;
+	width:100%;
+	background-color: #000;
+	border-bottom: 1px solid #610B0B;
+}
+
+#logo{
+	
+	
+	margin-left:70px;
+	width:360px;
+	height:60px;
+	
+	border-bottom: 1px solid black;
+}
+
+#logo h1{
+	margin-top:50px;
+	margin-left:50px;
+}
+
+#loginmenu{
+	
+	
+	margin-right:50px;
+	margin-top:20px;
+	width:500px;
+	height:300px;
+	
+	float:right;
+}
+
+#islide{
+
+	margin-top:60px;
+	margin-left:10px;
+	width:600px;
+	height:300px;
+	
+	float:left;
+}
+
+.slider{
+
+
+	width:500px;
+	height:250px;
+	overflow:hidden;
+	margin:30px auto;
+}
+
+.slider img{
+
+	width:500px;
+	height:250px;
+	display:none;
+
+
+}
+
+#footer{
+	width:100%;
+	height:50px;
+	background-color: #B40404;
+}
+
+#icons{
+
+	float:left;
+	width:300px;
+	height:100%;
+	margin-left:40px;
+
+	
+}
+
+#copy{
+	padding-top:20px;
+	float:right;
+	width:50px;
+	height:100%;
+}
+
+.ico{
+	margin-top:10px;
+	height:30px;
+	width:30px;
+	float:left;
+	margin-left:10px;
+}

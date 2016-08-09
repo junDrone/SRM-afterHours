@@ -1,0 +1,123 @@
+<?php
+session_start();
+if(isset($_SESSION['user']))
+$userid = $_SESSION['user'];
+else
+header('Location: homepage.php');
+?>
+
+
+<html>
+	<head>
+		<title>
+			Welcome <?php echo $userid; ?>
+		</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+		<script>
+			function changes(){
+				document.getElementById('gg').src="";
+			}
+			function changes2(){
+				document.getElementById('gg').src="ff.mp4";
+			}
+			function change()
+				{
+					document.getElementById('mainbody').className += ' slideout';
+				}
+			function changeback()
+				{
+					document.getElementById('mainbody').className = 'menu';
+				}
+
+		</script>	
+		<link rel="stylesheet" type="text/css" href="../css/usrprofile.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<body>
+
+		<div id="mainbody" class="menu">
+			<nav class="slider">
+		
+				<input type="button" onclick="changeback()">
+
+
+				<div  id="menulist">
+
+					<ul class="nav nav-pills nav-stacked">
+						<li><div class="set1"><a href="#">Edit Profile</a></li>
+						<li><div class="set1"><a href="#picture">Change Picture</a></li>
+						<li><div class="set1"><a href="#">Something</a></li>
+						<li><div class="set1"><a href="#">Logout</a></li>
+					</ul>
+					<div class="modal" id="picture">
+							<div class="popup">
+									
+										
+									<a href="#" onclick="changes()">Close</a>
+									<input type="submit" onclick="changes2()">fff
+									<!-- 4:3 aspect ratio -->
+								<div class="embed-responsive embed-responsive-4by3">
+  									<iframe id="gg" class="embed-responsive-item" src=""></iframe>
+								</div>
+									
+							</div><!--cont-->
+					</div><!--modal-->
+
+				</div>
+			</nav>
+	
+		<div id="header">
+		<div id="menubar">
+			<ul>
+				<li><a href="#"></a>aaaaa</li>
+				<li><a href="#"></a>aaaaa</li>
+				<li><a href="#"></a>aaaaa</li>
+				<li><a href="#" ></a>aaaaa</li>
+			</ul>
+		</div>
+		
+		<div id="searchbar">
+				<input type="text" id="search" />
+				<img src="../images/i1.png" />
+		</div>
+	</div><!--header-->
+	<div id="bodymenu"></div><!--bodymenu-->
+
+	<div id="maincontent">
+
+		<div id="profimg">
+
+		</div><!--profimg-->
+
+			<div id="profmenu">
+		<ul>
+			<li><img src="../images/message.png" class="icons"><div class="set"><a href="#">Messages</a><div></li>
+			<li><img src="../images/project.png" class="icons"><div class="set"><a href="#">Projects</a><div></li>
+			<li><img src="../images/settings.png" class="icons"><div class="set"><a href="#" onclick="change()">Settings</a><div></li>
+		</ul>
+			
+		</div><!--profmenu-->
+
+		
+
+	</div><!--maincontent-->
+	<div id="content1"></div><!--content1-->
+	<div id="content2"></div><!--content2-->
+	<div id="content3"></div><!--content3-->
+	<div id="content4"></div><!--content4-->
+
+	
+
+
+
+
+
+</div><!--mainbody-->
+
+
+
+</body>
+</html>
